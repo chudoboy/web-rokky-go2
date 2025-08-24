@@ -1,0 +1,145 @@
+a,
+a:visited {
+    text-decoration: none;
+}
+
+.zgl h1 {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    left: 3%;
+}
+
+.gray {
+    color: #737373;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*kartochki*/
+
+.Kartochki div {
+    transition: transform 0.3s ease;
+}
+
+.Kartochki div:hover {
+    transform: translateY(-10px);
+}
+
+.shampun {
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+}
+
+.shampun img {
+    position: relative;
+    top: 50px;
+    left: 3%;
+    cursor: pointer;
+}
+
+.shampun p {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    top: -366px;
+    left: 4%;
+}
+
+.gel {
+    cursor: pointer;
+    position: relative;
+    top: -355px;
+    left: 24%;
+}
+
+.gel p {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    top: -415px;
+    left: 1.2%;
+}
+
+.nabori {
+    cursor: pointer;
+    position: relative;
+    top: -797px;
+    left: 44.8%;
+}
+
+.nabori p {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    top: -415px;
+    left: 1.2%;
+}
+
+.seti {
+    cursor: pointer;
+    position: relative;
+    top: -800px;
+    left: 3%;
+}
+
+.seti p {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    top: -1030px;
+    left: 4%;
+}
+
+.duxi {
+    cursor: pointer;
+    position: relative;
+    top: -1058px;
+    left: 44.8%;
+}
+
+.duxi p {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    top: -230px;
+    left: 1.2%;
+}
+
+.gift {
+    cursor: pointer;
+    position: relative;
+    top: -1317px;
+    left: 71.2%;
+}
+
+.gift p {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    top: -230px;
+    left: 1.2%;
+}

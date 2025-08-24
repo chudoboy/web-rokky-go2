@@ -1,0 +1,160 @@
+.ConMap {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.svg-wrapper {
+    position: relative;
+    top: 200px;
+}
+
+.map {
+  width: 1058px;
+  height: 563px;
+}
+
+.dot-glow {
+  animation: glowLife 5s ease-in-out forwards;
+  pointer-events: none;
+}
+
+@keyframes glowLife {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0.7;
+    }
+    50% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 0.6;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+/*Заголовок*/
+
+.black {
+  position: relative;
+  top: -30px;
+}
+
+.black img {
+  pointer-events: none;
+  user-select: none;
+}
+
+.Zagolovok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -320px;
+  flex-direction: column;
+}
+
+.Zag h1 {
+  margin: 0;
+  color: white;
+  font-family: "SF Pro Display";
+  font-size: 54px;
+}
+
+.Podzag {
+  position: relative;
+  top: 17px;
+}
+
+.Podzag h2 {
+  margin: 0;
+  color: #6c6c6c;
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ButtonTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 1px;
+  top: 55px;
+}
+
+/*Кнеопки медаль и Open*/
+
+.Button2 {
+  display: flex;
+  gap: 17px;
+}
+
+.Titled {
+  width: 228px;
+  height: 66px;
+  border: 1px solid #3a3a3a;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.text h1 {
+  margin: 0;
+  color: white;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+
+.text h2 {
+  margin: 0;
+  color: #868686;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn3 {
+  cursor: pointer;
+  width: 228px;
+  height: 66px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  /*Font*/
+  font-family: "SF Pro Display";
+  font-size: 28px;
+  font-weight: 500;
+  transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.btn3:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #3a3a3a;
+}

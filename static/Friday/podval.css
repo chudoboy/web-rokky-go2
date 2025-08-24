@@ -1,0 +1,220 @@
+.FridayWelcom {
+    position: relative;
+    top: 158px;
+}
+
+.WelcomText {
+    display: flex;
+    justify-content: center;
+}
+
+.WelcomText h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 54px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.Support {
+    display: flex;
+    justify-content: center;
+}
+
+.Sup {
+    width: 709px;
+    height: 135px;
+    border-radius: 20px;
+    border: 2px solid #3a3a3a;
+    background-color: #101010;
+    margin-top: 70px;
+}
+
+.SupText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 23px;
+    left: 21px;
+}
+
+.SupText h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.SupText h2 {
+    margin: 0;
+    color: #868686;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Help {
+    position: relative;
+    top: -27px;
+    left: 482px;
+}
+
+.Spons {
+    cursor: pointer;
+    width: 207px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    /*Font*/
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 17px;
+    font-weight: 600;
+    /*Settings*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    /*Animated*/
+    transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.Spons:hover {
+    color: white;
+    border: 1px solid #3a3a3a;
+    background-color: black;
+}
+
+.icon-wrapper {
+    position: relative;
+    width: 20px; /* подгони под размер иконки */
+    height: 20px;
+    display: inline-block;
+}
+  
+.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+  
+.icon.hover {
+    opacity: 0;
+}
+  
+.Spons:hover .icon.hover {
+    opacity: 1;
+}
+  
+.Spons:hover .icon.normal {
+    opacity: 0;
+}
+  
+
+a {
+    text-decoration: none;
+}
+
+/*Povdval text*/
+
+.Podval {
+    position: relative;
+    top: 159px;
+}
+
+.PodvalText {
+    height: 300px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.leftText {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 256px;
+}
+
+.leftText h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.leftText h2 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/*left2*/
+
+.leftText2 {
+    display: flex;
+    gap: 133px;
+}
+
+.Onemenu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Twomenu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Threemenu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.white {
+    color: white;
+    font-weight: 500;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+}
+
+.leftText2 a {
+    margin: 0;
+    color: #868686;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 0.8s ease;
+}
+
+.leftText2 a:hover {
+    color: white;
+}
+
+.C {
+    position: relative;
+    top: 127px;
+}
+
+.C h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 17px;
+    font-weight: 600;
+}

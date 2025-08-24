@@ -1,0 +1,706 @@
+.con-mob {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 450px) {
+    .con-mob {
+        display: none;
+    }
+}
+
+/*menu*/
+
+.terminal {
+    width: 386px;
+    height: 397px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 30px;
+}
+
+.con-menu-terminal {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-terminal {
+    width: 350px;
+    height: 36px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid #303030;
+    margin-top: 18px;
+}
+
+.slider {
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.mob-btn {
+    cursor: pointer;
+    width: 80px;
+    height: 36px;
+    background-color: transparent;
+    border: 1px solid #75beff;
+    border-radius: 12px;
+}
+
+.mob-btn img {
+    margin-top: 3px;
+}
+
+.mob-btn2 {
+    cursor: pointer;
+    width: 80px;
+    height: 36px;
+    background-color: transparent;
+    border: 1px solid #ff75f6;
+    border-radius: 12px;
+}
+
+.mob-btn2 img {
+    margin-top: 3px;
+}
+
+.mob-btn3 {
+    cursor: pointer;
+    width: 80px;
+    height: 36px;
+    background-color: transparent;
+    border: 1px solid #00a780;
+    border-radius: 12px;
+}
+
+.mob-btn3 img {
+    margin-top: 3px;
+}
+
+.mob-btn4 {
+    cursor: pointer;
+    width: 80px;
+    height: 36px;
+    background-color: transparent;
+    border: 1px solid #d9b933;
+    border-radius: 12px;
+}
+
+.mob-btn4 img {
+    margin-top: 3px;
+}
+
+/* --- Новый блок --- */
+/* Скрытые по умолчанию border у всех */
+.mob-btn, .mob-btn2, .mob-btn3, .mob-btn4 {
+    border: none;
+    position: relative;
+    z-index: 2;
+    transition: border-color 0.3s, border-width 0.3s, filter 0.3s;
+}
+
+/* Анимация scale для активной кнопки (по желанию) */
+.active-btn {
+    border-width: 1px;
+    border-style: solid;
+    animation: btnScale 0.25s cubic-bezier(.45,1.3,.37,1);
+}
+@keyframes btnScale {
+    0%   { transform: scale(0.93); }
+    80%  { transform: scale(1.04);}
+    100% { transform: scale(1);}
+}
+
+.active-btn.mob-btn  { border-color: #75beff; }
+.active-btn.mob-btn2 { border-color: #ff75f6; }
+.active-btn.mob-btn3 { border-color: #00a780; }
+.active-btn.mob-btn4 { border-color: #d9b933; }
+
+/* Мелкая анимация для иконок */
+.active-btn img {
+    filter: none;
+}
+.con-knopki button:not(.active-btn) img {
+    filter: grayscale(1) brightness(0.75);
+    transition: filter 0.3s;
+}
+
+/*text-mob*/
+
+.text-mob {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+    margin-left: 18px;
+    gap: 6px;
+}
+
+.text-mob2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+    margin-left: 18px;
+    gap: 6px;
+}
+
+.text-mob3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+    margin-left: 18px;
+    gap: 6px;
+}
+
+.text-mob4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+    margin-left: 18px;
+    gap: 6px;
+}
+
+.text-mob h3 {
+    color: #75beff;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.text-mob2 h3 {
+    color: #ff75f6;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.text-mob3 h3 {
+    color: #00a780;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.text-mob4 h3 {
+    color: #d9b933;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.text-mob p {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 152.1%;
+    margin: 0;
+}
+
+.text-mob2 p {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 152.1%;
+    margin: 0;
+}
+
+.text-mob3 p {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 152.1%;
+    margin: 0;
+}
+
+.text-mob4 p {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 152.1%;
+    margin: 0;
+}
+
+.heshtag-mob {
+    width: 169px;
+    height: 22px;
+    border: 1px solid #75beff;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -23px;
+    margin-left: 204px;
+}
+
+.heshtag-mob p {
+    color: #75beff;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.heshtag-mob2 {
+    width: 159px;
+    height: 22px;
+    border: 1px solid #ff75f6;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -23px;
+    margin-left: 146px;
+}
+
+.heshtag-mob2 p {
+    color: #ff75f6;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.heshtag-mob3 {
+    width: 159px;
+    height: 22px;
+    border: 1px solid #00a780;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -23px;
+    margin-left: 190px;
+}
+
+.heshtag-mob3 p {
+    color: #00a780;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.heshtag-mob4 {
+    width: 141px;
+    height: 22px;
+    border: 1px solid #d9b933;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -23px;
+    margin-left: 190px;
+}
+
+.heshtag-mob4 p {
+    color: #d9b933;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/*text-mob*/
+
+
+/*menu*/
+
+.con-price-mob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.tire-price-mob {
+    width: 394px;
+    height: 4px;
+    background-color: #212121;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 450px) {
+    .tire-price-mob {
+        display: none;
+    }
+}
+
+.plshk-price-mob {
+    width: 134px;
+    height: 34px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plshk-price-mob p {
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.con-text-mob .btn-text1 {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    width: 100%;
+    transition: opacity 0.14s; /* Было 0.35s — сделай 0.14s */
+    z-index: 0;
+}
+
+.con-text-mob .btn-text1.active-text {
+    opacity: 1;
+    pointer-events: auto;
+    position: static;
+    z-index: 1;
+}
+.con-text-mob {
+    position: relative;
+    min-height: 180px; /* по высоте самого большого текста */
+}
+
+/*polosa*/
+
+.con-polosa-mob {
+    margin-top: -20px;
+    margin-left: 12px;
+}
+
+.polosa-mob {
+    width: 362px;
+    height: 1px;
+    background-color: #2d2d2d;
+    border-radius: 100px;
+}
+
+/*acei*/
+
+.con-acei {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.acia {
+    width: 163px;
+    height: 131px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 20px;
+}
+
+.acia-logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.acia-logo p {
+    margin: 0;
+    color: #c3ff79;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.acia-logo2 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.acia-logo2 p {
+    margin: 0;
+    color: #eb7f04;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.acia-text {
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+.acia-text p {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 152.1%;
+    margin: 0;
+}
+
+.acia-text2 {
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+.acia-text2 p {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 152.1%;
+    margin: 0;
+}
+
+/*acia-btn*/
+
+.acia-btn {
+    margin-top: -19px;
+    margin-left: 116px;
+}
+
+/*portfolio-mob*/
+
+.con-portfolio-mob {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-mob {
+    width: 386px;
+    height: 700px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 20px;
+    margin-top: 65px;
+}
+
+@media (min-width: 450px) {
+    .portfolio-mob {
+        display: none;
+    }
+}
+
+.portfolio-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-name h3 {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.goose {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: -24px;
+    transition: transform 0.15s linear;
+    z-index: 2;
+}
+
+.cherta {
+    width: 386px;
+    height: 2px;
+    background-color: #282828;
+    margin-top: 20px;
+}
+
+.apps-mob {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 18px;
+}
+
+.icon-app-mob {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-name-mob {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.app-name-mob h3 {
+    color: white;
+    width: 128px;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.app-name-mob p {
+    color: #727272;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.btn-app-mob {
+    margin-top: 18px;
+    margin-left: 28px;
+}
+
+.btn-mob {
+    cursor: pointer;
+    width: 85px;
+    height: 29px;
+    background-color: transparent;
+    border: 1px solid #424242;
+    border-radius: 8px;
+    /*font*/
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.app-polosa-mob {
+    width: 279px;
+    height: 2px;
+    background-color: #282828;
+    border-radius: 10px;
+    margin-top: 11px;
+    margin-left: 89px;
+
+}
+
+.locket {
+    position: relative;
+    top: 25px;
+    margin-left: 26px;
+}
+
+.con-btn-menu-port {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.ryad1-mob {
+    display: flex;
+    gap: 10px;
+}
+
+.ryad1-mob2 {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-menu2 {
+    width: 170px;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 10px;
+    /*font*/
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    /*func*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+/*varning*/
+
+.con-varning-mob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.varning-mob {
+    width: 386px;
+    height: 91px;
+    background-color: transparent;
+    border: 2px dashed #303030;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+@media (min-width: 450px) {
+    .varning-mob {
+        display: none;
+    }
+}
+
+.varning-name{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.varning-name P {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 600px;
+    margin: 0;
+}
+
+.varning-text {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 12px;
+}
+
+.varning-text p {
+    color: #414141;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 147.1%;
+    margin: 0;
+}
+
+.varning-text img {
+    position: relative;
+    top: 10px;
+    right: 93px;
+}
+

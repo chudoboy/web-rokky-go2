@@ -1,0 +1,338 @@
+a,
+a:visited {
+    text-decoration: none;
+}
+
+.firstV video {
+    width: 1440px;
+    height: 810px;
+    position: relative;
+    top: -35px;
+}
+
+/*text*/
+
+.balztext2 {
+    color: #4575C9;
+    font-family: "Onest";
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: -600px;
+    left: 9.5%;
+}
+
+.geltext2 {
+    color: #E94196;
+    font-family: "Onest";
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: -390px;
+    left: 70.2%;
+}
+
+/*Knopki*/
+
+.knopki {
+    opacity: 0; /* Полностью скрываем */
+    visibility: hidden; /* Чтобы не занимало место */
+    transition: opacity 0.8s ease-in-out, visibility 1s ease-in-out;
+}
+
+.gel {
+    width: 150px;
+    height: 38px;
+    border: 1px solid #E94196;
+    border-radius: 30px;
+    background-color: transparent;
+    /*font*/
+    color: black;
+    text-decoration: none;
+    font-family: "Onest";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Выравниваем текст по центру */
+    position: relative;
+    top: -400px;
+    left: 70.1%;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.gel:hover {
+    color: white;
+    background-color: #E94196;
+    border: none;
+}
+
+.gel img {
+    position: absolute;
+    left: 75%;
+}
+
+.gel img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.gel img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.gel:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.gel:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+.balz {
+    width: 150px;
+    height: 38px;
+    border: 1px solid #38609C;
+    border-radius: 30px;
+    background-color: transparent;
+    /*font*/
+    color: black;
+    text-decoration: none;
+    font-family: "Onest";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center; /* Выравниваем текст по центру */
+    top: -705px;
+    left: 19%;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.balz:hover {
+    color: white;
+    background-color: #38609C;
+    border: none;
+}
+
+.balz img {
+    position: absolute;
+    left: 75%;
+}
+
+.balz img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.balz img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.balz:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.balz:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+/*white polosa 1*/
+
+.white1 {
+    width: 1440px;
+    height: 158px;
+    background-color: white;
+    position: relative;
+    top: -253px;
+}
+
+.two h1 {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 48px;
+    font-weight: 600;
+    position: relative;
+    top: 35px;
+    left: 5%;
+}
+
+.two h2 {
+    margin: 0;
+    color: #aaaaaa;
+    font-family: "Onest";
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 32px;
+    left: 5%;
+}
+
+.three h1 {
+    margin: 0;
+    font-family: "Onest";
+    font-size: 48px;
+    font-weight: 600;
+    position: relative;
+    top: -52px;
+    left: 30%;
+}
+
+.three h2 {
+    margin: 0;
+    color: #aaaaaa;
+    font-family: "Onest";
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: -55px;
+    left: 30%;
+}
+
+.five h1 {
+    margin: 0;
+    font-family: "Onest";
+    font-size: 48px;
+    font-weight: 600;
+    position: relative;
+    top: -139px;
+    left: 55%;
+}
+
+.five h2 {
+    margin: 0;
+    color: #aaaaaa;
+    font-family: "Onest";
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: -142px;
+    left: 55%;
+}
+
+/*knopki2*/
+
+.knopki2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    position: relative;
+    top: -205px;
+    right: 2.5%;
+}
+
+.btn1 {
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    font-family: "Onest";
+    font-size: 18px;
+    font-weight: 300;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn2 {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 30px;
+    color: black;
+    background-color: transparent;
+    font-family: "Onest";
+    font-size: 18px;
+    font-weight: 300;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.btn2:hover {
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+/*vtoroie video*/
+
+.secondV video {
+    width: 1440px;
+    height: 810px;
+    position: relative;
+    top: -279px;
+}
+
+.scrab {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+
+.scrab-btn {
+    width: 150px;
+    height: 38px;
+    border: 1px solid #5D5053;
+    border-radius: 30px;
+    background-color: transparent;
+    /*font*/
+    color: black;
+    text-decoration: none;
+    font-family: "Onest";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center; /* Выравниваем текст по центру */
+    top: -805px;
+    left: 27%;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.scrab-btn:hover {
+    color: white;
+    background-color: #5D5053;
+    border: none;
+}
+
+.scrab-btn img {
+    position: absolute;
+    left: 75%;
+}
+
+.scrab-btn img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.scrab-btn img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.scrab-btn:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.scrab-btn:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+.scrabtext2 h1 {
+    color: #5D5053;
+    font-family: "Onest";
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: -800px;
+    left: 27.2%;
+}

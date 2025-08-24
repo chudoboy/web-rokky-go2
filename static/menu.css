@@ -1,0 +1,178 @@
+.menu {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.Logo {
+    margin-left: 105px;
+}
+
+@media (max-width: 440px) {
+    .Logo {
+        margin-left: 169px;
+    }
+}
+
+.Logo img {
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width: 440px) {
+    .Logo img {
+        width: 81px;
+        height: 84px;
+    }
+}
+
+.menu2 {
+    display: flex;
+    gap: 20px;
+    margin-left: 27px;
+}
+
+@media (max-width: 440px) {
+    .menu2 {
+        display: none;
+    }
+}
+
+.navigator {
+    cursor: pointer;
+    width: 84px;
+    height: 31px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 7px;
+    /*font*/
+    color: #808080;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400px;
+    /*func*/
+    transition: color 0.8s ease, border 0.8s ease;
+}
+
+.navigator:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.navigator2 {
+    cursor: pointer;
+    width: 113px;
+    height: 31px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 7px;
+    /*font*/
+    color: #808080;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400px;
+    /*func*/
+    transition: color 0.8s ease, border 0.8s ease;
+}
+
+.navigator2:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.navigator3 {
+    cursor: pointer;
+    width: 91px;
+    height: 31px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 7px;
+    /*font*/
+    color: #808080;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400px;
+    /*func*/
+    transition: color 0.8s ease, border 0.8s ease;
+}
+
+.navigator3:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.Decode {
+    cursor: pointer;
+    width: 134px;
+    height: 31px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    /*font*/
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400px;
+    /*func*/
+    transition: color 0.8s ease, border 0.8s ease, background-color 0.8s ease;
+    margin-left: 667px;
+}
+
+.Decode:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+@media (max-width: 440px) {
+    .Decode {
+        display: none;
+    }
+}
+
+.opa {
+    width: 1440px;
+    height: 1px;
+    background-color: #1E1E1E;
+    margin-top: 22px;
+}
+
+@media (max-width: 440px) {
+    .opa {
+        display: none;
+    }
+}
+
+.void h1 {
+    color: #E1E1E1;
+    font-family: "SF Pro Display";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+@media (max-width: 440px) {
+    .void h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 402px) {
+    .void h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 412px) {
+    .void h1 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 393px) {
+    .void h1 {
+        font-size: 32px;
+    }
+}

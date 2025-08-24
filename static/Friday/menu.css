@@ -1,0 +1,96 @@
+.ConMenu {
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 1212px;
+    height: 58px;
+    background-color: #101010;
+    border: 1px solid #3a3a3a;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Logo {
+    position: relative;
+    top: 2px;
+    left: 20px;
+    
+}
+
+.navigate {
+    display: flex;
+    position: relative;
+    top: 3px;
+    gap: 5px;
+    left: 350px;
+}
+
+.btn1 {
+    cursor: pointer;
+    color: #6c6c6c;
+    border: none;
+    background-color: transparent;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.8s ease;
+    padding-bottom: 6px; /* Добавим немного "места" под линию */
+    transition: color 0.8s ease;
+}
+
+.btn1:hover {
+    color: white;
+}
+
+.btn1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0; /* это привязка линии к низу кнопки */
+    transform: translateX(-50%);
+    width: 50%; /* линия короче кнопки */
+    height: 2px;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.btn1:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) scaleX(1);
+}
+
+.btnOpen {
+    position: relative;
+    left: 600px;
+    
+}
+
+.btn2 {
+    cursor: pointer;
+    width: 113px;
+    height: 36px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    /*font*/
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #3a3a3a;
+}

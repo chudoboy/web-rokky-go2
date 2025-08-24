@@ -1,0 +1,217 @@
+.LogoAccess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.LogoAccess h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.Variki {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+/*FridayLite*/
+
+.FridayLite {
+    width: 346px;
+    height: 434px;
+    border: 2px dashed #3a3a3a;
+    border-radius: 20px;
+    background-color: #101010;
+}
+
+.Gradient1 {
+    position: relative;
+    top: 19px;
+    left: 19px;
+}
+
+.shum {
+    position: relative;
+    top: -150px;
+    left: 19px;
+}
+
+.LiteText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    align-items: center;
+    top: -270px;
+}
+
+.venki {
+    position: relative;
+    top: -23px;
+}
+
+.LiteText h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.LiteText h2 {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Price {
+    position: relative;
+    top: -225px;
+}
+
+.pricetext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 143px;
+}
+
+.pricetext h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.left {
+    color: #9c9c9c;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    left: 4px;
+}
+
+.Started {
+    width: 80px;
+    height: 31px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Started p {
+    color: #868686;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Chto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list {
+    width: 310px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -210px;
+    left: 12px;
+}
+
+.list p {
+    margin: 0;
+    color: #868686;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Connect {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -180px;
+}
+
+.btnCnct {
+    cursor: pointer;
+    width: 309px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    /*Font*/
+    font-family: "SF Pro Display";
+    font-size: 17px;
+    font-weight: 600;
+    transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.btnCnct:hover {
+    color: white;
+    border: 1px solid #3a3a3a;
+    background-color: transparent;
+}
+
+/*FridayMax*/
+
+.FridayMax {
+    width: 346px;
+    height: 434px;
+    border: 2px dashed #3a3a3a;
+    border-radius: 20px;
+    background-color: #101010;
+}
+
+.Gradient2 {
+    position: relative;
+    top: 19px;
+    left: 19px;
+}
+
+.MaxText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    align-items: center;
+    top: -270px;
+}
+
+.venki2 {
+    position: relative;
+    top: -23px;
+}
+
+.MaxText h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.MaxText h2 {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}

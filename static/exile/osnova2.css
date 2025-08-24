@@ -1,0 +1,481 @@
+.white2 {
+    width: 1440px;
+    height: 158px;
+    background-color: white;
+    position: relative;
+    top: -411px;
+}
+
+.logo2 h1 {
+    margin: 0;
+    font-family: "Onest";
+    font-weight: 600;
+    font-size: 64px;
+    position: relative;
+    top: 30px;
+    left: 5%;
+}
+
+.logo2 h2 {
+    margin: 0;
+    font-family: "Onest";
+    font-weight: 600;
+    font-size: 64px;
+    position: relative;
+    top: -125px;
+    left: 13%;
+}
+
+.logo2 h3 {
+    margin: 0;
+    color: #858585;
+    font-family: "Onest";
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    top: -140px;
+    left: 10.6%;
+}
+
+.logo2 img {
+    position: relative;
+    top: -33px;
+    left: 8.3%;
+}
+
+.Cosmetics {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Cosmetics p {
+    margin: 0;
+    font-family: "Onest";
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: -235px;
+    right: 3%;
+}
+
+#pasta2 {
+    position: relative;
+    top: -410px;
+    display: inline-block;
+    opacity: 0; /* Изначально скрыто */
+    transform: translateX(-150px); /* Смещаем влево */
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+#pasta2.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.pastatext2 h1 {
+    color: #4AC3A3;
+    font-family: "Onest";
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: -650px;
+    left: 60%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+
+.pastatext2 h1.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.pasta-btn {
+    width: 150px;
+    height: 38px;
+    border: 1px solid #4AC3A3;
+    border-radius: 30px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    font-family: "Onest";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: -655px;
+    left: 59.9%;
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out, background-color 0.8s ease, color 0.8s ease;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.pasta-btn.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.pasta-btn:hover {
+    color: white;
+    background-color: #4AC3A3;
+}
+
+.pasta-btn img {
+    position: absolute;
+    left: 75%;
+}
+
+.pasta-btn img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.pasta-btn img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.pasta-btn:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.pasta-btn:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+/*white3*/
+
+.white3 {
+    width: 1440px;
+    height: 180px;
+    background-color: white;
+    position: relative;
+    top: -512px;
+}
+
+.save h1 {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 34px;
+    font-weight: 600;
+    position: relative;
+    top: 25px;
+    left: 5%;
+}
+
+.sostav h1 {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 30px;
+    left: 5%;
+}
+
+.Cosmetics2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Cosmetics2 p {
+    margin: 0;
+    font-family: "Onest";
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: -30px;
+    right: 3%;
+}
+
+.knopki3 {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    top: -55px;
+    left: 4.8%;
+}
+
+.Sulfat {
+    width: 252px;
+    height: 38px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+    font-family: "Onest";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.voda {
+    width: 124px;
+    height: 38px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+    font-family: "Onest";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*nabor*/
+
+#nabor {
+    position: relative;
+    top: -513px;
+}
+
+.nabor2 {
+    width: 1440px;
+    height: 76px;
+    background-color: #F4F4F4;
+    position: relative;
+    top: -536px;
+}
+
+/*knopki nabor*/
+
+.shamptext2 {
+    margin: 0;
+    color: #6041B7;
+    font-family: "Onest";
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: -50px;
+    left: 18.5%;
+}
+
+.shamp-btn {
+    width: 150px;
+    height: 38px;
+    border: 1px solid #6041B7;
+    border-radius: 30px;
+    background-color: transparent;
+    /*font*/
+    color: black;
+    text-decoration: none;
+    font-family: "Onest";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center; /* Выравниваем текст по центру */
+    top: -50px;
+    left: 17%;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.shamp-btn:hover {
+    color: white;
+    background-color: #6041B7;
+    border: none;
+}
+
+.shamp-btn img {
+    position: absolute;
+    left: 75%;
+}
+
+.shamp-btn img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.shamp-btn img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.shamp-btn:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.shamp-btn:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+.geltext3 {
+    margin: 0;
+    color: #B6255B;
+    font-family: "Onest";
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: -152px;
+    left: 37.7%;
+}
+
+.gel2-btn {
+    width: 150px;
+    height: 38px;
+    border: 1px solid #B6255B;
+    border-radius: 30px;
+    background-color: transparent;
+    /*font*/
+    color: black;
+    text-decoration: none;
+    font-family: "Onest";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center; /* Выравниваем текст по центру */
+    top: -151px;
+    left: 34.4%;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.gel2-btn:hover {
+    color: white;
+    background-color: #B6255B;
+    border: none;
+}
+
+.gel2-btn img {
+    position: absolute;
+    left: 75%;
+}
+
+.gel2-btn img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.gel2-btn img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.gel2-btn:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.gel2-btn:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+.penkatext {
+    margin: 0;
+    color: #4CB8E4;
+    font-family: "Onest";
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: -253px;
+    left: 54.7%;
+}
+
+.penka-btn {
+    width: 150px;
+    height: 38px;
+    border: 1px solid #4CB8E4;
+    border-radius: 30px;
+    background-color: transparent;
+    /*font*/
+    color: black;
+    text-decoration: none;
+    font-family: "Onest";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center; /* Выравниваем текст по центру */
+    top: -251px;
+    left: 52.1%;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.penka-btn:hover {
+    color: white;
+    background-color: #4CB8E4;
+    border: none;
+}
+
+.penka-btn img {
+    position: absolute;
+    left: 75%;
+}
+
+.penka-btn img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.penka-btn img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.penka-btn:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.penka-btn:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+.scrabtext3 {
+    margin: 0;
+    color: #5D5053;
+    font-family: "Onest";
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: -354px;
+    left: 75%;
+}
+
+.scrab2-btn {
+    width: 150px;
+    height: 38px;
+    border: 1px solid #5D5053;
+    border-radius: 30px;
+    background-color: transparent;
+    /*font*/
+    color: black;
+    text-decoration: none;
+    font-family: "Onest";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center; /* Выравниваем текст по центру */
+    top: -352px;
+    left: 72.4%;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.scrab2-btn:hover {
+    color: white;
+    background-color: #5D5053;
+    border: none;
+}
+
+.scrab2-btn img {
+    position: absolute;
+    left: 75%;
+}
+
+.scrab2-btn img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.scrab2-btn img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.scrab2-btn:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.scrab2-btn:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}

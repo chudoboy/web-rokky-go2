@@ -1,0 +1,481 @@
+.Blockchain {
+    width: 555px;
+    height: 395px;
+    background-color: #222222;
+    border-radius: 10px;
+    position: relative;
+    top: -560px;
+    left: 10%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backsolana img {
+    position: absolute;
+    top: 65px;
+    left: 52%;
+}
+
+.backlogo {
+    width: 50px;
+    height: 50px;
+    background-color: #151515;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 30px;
+    left: 6%;
+}
+
+.backlogo img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 9px;
+    left: 20%;
+}
+
+.Blockchain h1 {
+    font-size: 19px;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 35px;
+    left: 6.5%;
+}
+
+.Blockchain h2 {
+    font-size: 16px;
+    font-family: "Sf Pro Display";
+    color: #6c6c6c;
+    font-weight: 400;
+    position: relative;
+    top: 35px;
+    left: 6.5%;
+}
+
+.pImg {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    position: relative;
+    top: 97px;
+    left: 6.5%;
+}
+
+.pImg img {
+    width: 15px;
+    height: 11px;
+}
+
+.p p{
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    left: 11%;
+}
+
+/*Key*/
+
+.key {
+    width: 266px;
+    height: 395px;
+    background-color: #222222;
+    border-radius: 10px;
+    position: relative;
+    top: -955px;
+    left: 50%;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backlogo2 {
+    width: 50px;
+    height: 50px;
+    background-color: #151515;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+}
+
+.backlogo2 img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    left: 20%;
+}
+
+.key h1 {
+    font-size: 19px;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-align: center;
+    top: 35px;
+}
+
+.key h2 {
+    font-size: 16px;
+    font-family: "Sf Pro Display";
+    color: #6c6c6c;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    top: 34px;
+}
+
+/*NBR*/
+
+.nbr1 {
+    width: 101px;
+    height: 53px;
+    background-color: #1b1b1b;
+    border: 1px solid #494949;
+    border-top-right-radius: 8px; /* Верхний правый угол */
+    border-bottom-right-radius: 8px; /* Нижний правый угол */
+    position: relative;
+    top: 45px;
+    right: 1%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nbr1 p {
+    font-size: 14px;
+    font-family: "Cascadia Code";
+    font-weight: 400;
+    background: linear-gradient(180deg, #222222 0%, #888888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 3px;
+}
+
+.nbr2 {
+    width: 101px;
+    height: 53px;
+    background-color: #1b1b1b;
+    border: 1px solid #494949;
+    border-top-right-radius: 8px; /* Верхний правый угол */
+    border-bottom-right-radius: 8px; /* Нижний правый угол */
+    position: relative;
+    top: 55px;
+    right: 1%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nbr2 p {
+    font-size: 14px;
+    font-family: "Cascadia Code";
+    font-weight: 400;
+    background: linear-gradient(180deg, #222222 0%, #888888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 3px;
+}
+
+.nbr3 {
+    width: 101px;
+    height: 53px;
+    background-color: #1b1b1b;
+    border: 1px solid #494949;
+    border-top-right-radius: 8px; /* Верхний правый угол */
+    border-bottom-right-radius: 8px; /* Нижний правый угол */
+    position: relative;
+    top: 65px;
+    right: 1%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nbr3 p {
+    font-size: 14px;
+    font-family: "Cascadia Code";
+    font-weight: 400;
+    background: linear-gradient(180deg, #222222 0%, #888888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 3px;
+}
+
+.nbr4 {
+    width: 101px;
+    height: 53px;
+    background-color: #1b1b1b;
+    border: 1px solid #494949;
+    border-top-left-radius: 8px; /* Верхний левый угол */
+    border-bottom-left-radius: 8px; /* Нижний левый угол */
+    position: relative;
+    top: -120px;
+    left: 62.5%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nbr4 p {
+    font-size: 14px;
+    font-family: "Cascadia Code";
+    font-weight: 400;
+    background: linear-gradient(180deg, #222222 0%, #888888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 3px;
+    left: 11%;
+}
+
+.nbr5 {
+    width: 101px;
+    height: 53px;
+    background-color: #1b1b1b;
+    border: 1px solid #494949;
+    border-top-left-radius: 8px; /* Верхний левый угол */
+    border-bottom-left-radius: 8px; /* Нижний левый угол */
+    position: relative;
+    top: -110px;
+    left: 62.5%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nbr5 p {
+    font-size: 14px;
+    font-family: "Cascadia Code";
+    font-weight: 400;
+    background: linear-gradient(180deg, #222222 0%, #888888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 3px;
+    left: 11%;
+}
+
+.nbr6 {
+    width: 101px;
+    height: 53px;
+    background-color: #1b1b1b;
+    border: 1px solid #494949;
+    border-top-left-radius: 8px; /* Верхний левый угол */
+    border-bottom-left-radius: 8px; /* Нижний левый угол */
+    position: relative;
+    top: -100px;
+    left: 62.5%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nbr6 p {
+    font-size: 14px;
+    font-family: "Cascadia Code";
+    font-weight: 400;
+    background: linear-gradient(180deg, #222222 0%, #888888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 3px;
+    left: 11%;
+}
+
+/*MeMe*/
+
+.Meme {
+    width: 266px;
+    height: 395px;
+    background-color: #222222;
+    border-radius: 10px;
+    position: relative;
+    top: -1350px;
+    left: 70%;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backplanet img {
+    position: absolute;
+    top: 195px;
+    left: 15%;
+}
+
+.linenone img {
+    width: 191.43px;
+    height: 162.22px;
+    position: absolute;
+    top: 235px;
+    left: 30%;
+}
+
+.backlogo3 {
+    width: 50px;
+    height: 50px;
+    background-color: #151515;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+}
+
+.backlogo3 img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    left: 20%;
+}
+
+.Meme h1 {
+    font-size: 19px;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-align: center;
+    top: 35px;
+}
+
+.Meme h2 {
+    font-size: 16px;
+    font-family: "Sf Pro Display";
+    color: #6c6c6c;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    top: 34px;
+}
+
+/*line1*/
+
+.neon-curve {
+    position: relative;
+    width: 180px;
+    height: 33px;
+    overflow: visible;
+    position: relative;
+    top: 170px;
+    left: 33%;
+}
+
+.curve-line {
+    stroke: rgba(50, 50, 50, 1); /* Темная линия */
+    stroke-width: 2;
+}
+
+.neon-pulse {
+    filter: drop-shadow(0 0 8px rgba(0, 255, 127, 0.8)) 
+            drop-shadow(0 0 15px rgba(0, 255, 127, 0.6))
+            drop-shadow(0 0 25px rgba(0, 255, 127, 0.4));
+    animation: moveOnCurve 2s linear infinite;
+}
+
+/*line2*/
+
+.neon-curve-2 {
+    position: relative;
+    width: 199px;
+    height: 84px;
+    overflow: visible; /* Не обрезаем светящийся шарик */
+    position: relative;
+    top: 75px;
+    left: 25%;
+}
+
+.neon-pulse-2 {
+    filter: drop-shadow(0 0 8px rgba(0, 255, 127, 0.8)) 
+            drop-shadow(0 0 15px rgba(0, 255, 127, 0.6))
+            drop-shadow(0 0 25px rgba(0, 255, 127, 0.4));
+    animation: moveOnCurve2 2s linear infinite;
+}
+
+@keyframes moveOnCurve2 {
+    0% { offset-distance: 0%; opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { offset-distance: 100%; opacity: 0; }
+}
+
+/*line3*/
+
+.neon-curve-3 {
+    position: relative;
+    width: 175px;
+    height: 97px;
+    overflow: visible; /* Позволяет шарику выходить за границы */
+    position: relative;
+    top: -60px;
+    left: 33%;
+}
+
+.neon-pulse-3 {
+    filter: drop-shadow(0 0 8px rgba(0, 255, 127, 0.8)) 
+            drop-shadow(0 0 15px rgba(0, 255, 127, 0.6))
+            drop-shadow(0 0 25px rgba(0, 255, 127, 0.4));
+    animation: moveOnCurve3 2s linear infinite;
+}
+
+@keyframes moveOnCurve3 {
+    0% { offset-distance: 0%; opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { offset-distance: 100%; opacity: 0; }
+}
+
+/*line4*/
+
+.neon-curve-4 {
+    position: relative;
+    width: 150px;
+    height: 108px;
+    overflow: visible; /* Позволяет шарику выходить за границы */
+    position: relative;
+    top: -225px;
+    left: 45%;
+}
+
+.neon-pulse-4 {
+    filter: drop-shadow(0 0 8px rgba(0, 255, 127, 0.8)) 
+            drop-shadow(0 0 15px rgba(0, 255, 127, 0.6))
+            drop-shadow(0 0 25px rgba(0, 255, 127, 0.4));
+    animation: moveOnCurve4 2s linear infinite;
+}
+
+@keyframes moveOnCurve4 {
+    0% { offset-distance: 0%; opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { offset-distance: 100%; opacity: 0; }
+}
+
+/*line5*/
+
+.neon-curve-5 {
+    position: relative;
+    width: 87px;
+    height: 136px;
+    overflow: visible; /* Позволяет шарику выходить за границы */
+    position: relative;
+    top: -215px;
+    left: 10%;
+}
+
+.neon-pulse-5 {
+    filter: drop-shadow(0 0 8px rgba(0, 255, 127, 0.8)) 
+            drop-shadow(0 0 15px rgba(0, 255, 127, 0.6))
+            drop-shadow(0 0 25px rgba(0, 255, 127, 0.4));
+    animation: moveOnCurve5 2s linear infinite;
+}
+
+@keyframes moveOnCurve5 {
+    0% { offset-distance: 0%; opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { offset-distance: 100%; opacity: 0; }
+}

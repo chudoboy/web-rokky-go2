@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ block "title" . }}Rokky{{ end }}</title>
+
+  <link rel="icon" href="/static/img/Rokky-logo.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="/static/container.css">
+  <link rel="stylesheet" href="/static/menu.css">
+  <link rel="stylesheet" href="/static/osnova.css">
+  <link rel="stylesheet" href="/static/portfolio.css">
+  <link rel="stylesheet" href="/static/price.css">
+  <link rel="stylesheet" href="/static/mob.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="menu">
+      <div class="Logo">
+        <img src="/static/img/Rokky-logo.svg" alt="">
+      </div>
+
+      <div class="menu2">
+        <a href="#tarif" id="linkToTarif"><button class="navigator">Тарифы</button></a>
+        <a href="#port" id="linkToPort"><button class="navigator2">Портфолио</button></a>
+        <a href="https://t.me/rokkycodee"><button class="navigator3">Telegram</button></a>
+      </div>
+
+      <a href="https://t.me/Mr_Rokky">
+        <button class="Decode">Начать</button>
+      </a>
+    </div>
+    <div class="opa"></div>
+
+    {{ block "content" . }}{{ end }}
+
+  </div>
+
+  <script src="/static/script.js"></script>
+  <script src="/static/text.js"></script>
+  <script src="/static/btn-hover-img.js"></script>
+  <script src="/static/dino.js"></script>
+  <script src="/static/btn-price.js"></script>
+  <script src="/static/menu-toggle.js"></script>
+  <script src="/static/goose.js"></script>
+</body>
+</html>

@@ -1,0 +1,397 @@
+.Store {
+    width: 266px;
+    height: 395px;
+    background-color: #222222;
+    border-radius: 10px;
+    position: relative;
+    top: -1330px;
+    left: 10%;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backlogo4 {
+    width: 50px;
+    height: 50px;
+    background-color: #151515;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+}
+
+.backlogo4 img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 20%;
+}
+
+.Store h1 {
+    font-size: 19px;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-align: center;
+    top: 35px;
+}
+
+.Store h2 {
+    font-size: 16px;
+    font-family: "Sf Pro Display";
+    color: #6c6c6c;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    top: 34px;
+}
+
+.ramki {
+    display: flex;
+    gap: 17px;
+}
+
+.ram {
+    width: 55px;
+    height: 55px;
+    background-color: #151515;
+    border-radius: 10px;
+    border: 1px solid #494949;
+    position: relative;
+    top: 40px;
+    left: 11.5%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ramki2 {
+    display: flex;
+    gap: 17px;
+}
+
+.ram2 {
+    width: 55px;
+    height: 55px;
+    background-color: #151515;
+    border-radius: 10px;
+    border: 1px solid #494949;
+    position: relative;
+    top: 60px;
+    left: 11.5%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ramki3 {
+    display: flex;
+    gap: 17px;
+}
+
+.ram3 {
+    width: 55px;
+    height: 55px;
+    background-color: #151515;
+    border-radius: 10px;
+    border: 1px solid #494949;
+    position: relative;
+    top: 80px;
+    left: 11.5%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ramki img {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 8px;
+    left: 17%;
+}
+
+.ramki2 img {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 8px;
+    left: 17%;
+}
+
+.ramki3 img {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 8px;
+    left: 17%;
+}
+
+/*Live*/
+
+.live {
+    width: 266px;
+    height: 395px;
+    background-color: #222222;
+    border-radius: 10px;
+    position: relative;
+    top: -1725px;
+    left: 30%;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backlogo5 {
+    width: 50px;
+    height: 50px;
+    background-color: #151515;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+}
+
+.backlogo5 img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 20%;
+}
+
+.live h1 {
+    font-size: 19px;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-align: center;
+    top: 35px;
+}
+
+.live h2 {
+    font-size: 16px;
+    font-family: "Sf Pro Display";
+    color: #6c6c6c;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    top: 34px;
+}
+
+/*cash*/
+
+.cash {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.csh1 {
+    width: 208px;
+    height: 55px;
+    background-color: #151515;
+    border-radius: 10px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+}
+
+.ava {
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+    background-color: #222222;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 8px;
+    left: 5%;
+}
+
+.ava img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 7px;
+}
+
+.csh1 h1 {
+    font-size: 14px;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    background: linear-gradient(180deg, #15E48C 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -35px;
+    left: 28%;
+}
+
+.csh1 h2 {
+    font-size: 11px;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -43px;
+    left: 28%;
+}
+
+.csh1 h1, .csh1 h2 {
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.csh1 h3 {
+    font-size: 14px;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    background: linear-gradient(180deg, #15E48C 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -87.5px;
+    right: 5%;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.csh1 h4 {
+    font-size: 11px;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -102px;
+    right: 5%;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease-out 0.5s, transform 0.5s ease-out 0.5s;
+}
+
+/*ai*/
+
+.ChatGPT {
+    width: 555px;
+    height: 395px;
+    background-color: #222222;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    top: -2120px;
+    left: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backlogo6 {
+    width: 50px;
+    height: 50px;
+    background-color: #151515;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: px;
+    left: 6%;
+}
+
+.backlogo6 p {
+    color: #2B9266;
+    font-size: 30px;
+    font-family: "SF Pro Display";
+    position: relative;
+    text-align: center;
+    top: 6px;
+}
+
+.ChatGPT h1 {
+    font-size: 19px;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 5px;
+    left: 6.5%;
+}
+
+.ChatGPT h2 {
+    font-size: 16px;
+    font-family: "Sf Pro Display";
+    color: #6c6c6c;
+    font-weight: 400;
+    position: relative;
+    top: 3px;
+    left: 6.5%;
+}
+
+.GPT {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.GPT img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 130px;
+    left: 6.5%;
+    transition: transform 1s ease-in-out;
+}
+
+.GPT:hover img {
+    transform: rotate(180deg);
+}
+
+.GPT a {
+    font-size: 19px;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    top: 130px;
+    left: 7%;
+}
+
+.setka img {
+    position: absolute;
+    pointer-events: none;
+    top: 60px;
+    left: 37%;
+}
+
+.Press {
+    position: absolute;
+    top: -30px;
+    width: 600px;
+    height: 500px;
+    left: 18%;
+    transform: scale(0.8);
+}
+
+.black {
+    width: 200px;
+    height: 100px;
+    background-color: #222222;
+    position: absolute;
+    top: 350px;
+    left: 70%;
+}

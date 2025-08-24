@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('static/fonts/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('static/fonts/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('static/fonts/SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('static/fonts/SFProDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MUNRO-sharedassets0';
+    src: url('static/fonts/MUNRO-sharedassets0.assets-232.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Фон сайта и функции*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    height: 2200px;
+    margin: 0 auto;
+    background-color: #0b0b0b;
+    overflow: hidden;
+}
+
+@media (max-width: 440px) {
+    .container {
+        height: auto;
+    }
+}
+
+.con-mob,
+.con-portfolio-mob {
+    opacity: 0;
+    transform: translateY(40px);
+}

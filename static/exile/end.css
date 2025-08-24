@@ -1,0 +1,48 @@
+.box img {
+    position: relative;
+    top: -540px;
+}
+
+.end p {
+    margin: 0;
+    color: black;
+    font-family: "Onest";
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: -1350px;
+    text-align: center;
+}
+
+.end-btn {
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    font-family: "Onest";
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    top: -770px;
+    left: 44.5%;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.logo3 {
+    position: relative;
+    top: -600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0.2%;
+}
+
+.end-btn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}

@@ -1,0 +1,493 @@
+.con-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 440px) {
+    .con-portfolio {
+        display: none;
+    }
+}
+
+.portfolio {
+    width: 1210px;
+    height: 495px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 20px;
+    margin-top: 64px;
+}
+
+.con-menu-port {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.con-crugov {
+    display: flex;
+    gap: 16px;
+    margin-left: 16px;
+}
+
+/*crugi*/
+
+.Green {
+    display: flex;
+    width: 131px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.Green p {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.crugGreen {
+    width: 10px;
+    height: 10px;
+    background-color: #00C817;
+    border-radius: 8px;
+}
+
+@media (max-width: 440px) {
+    .crugGreen {
+        margin-top: 28px;
+        margin-left: 27px;
+    }
+}
+
+.Blue {
+    display: flex;
+    width: 111px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.Blue p {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.crugBlue {
+    width: 10px;
+    height: 10px;
+    background-color: #00B8EB;
+    border-radius: 8px;
+}
+
+.Pink {
+    display: flex;
+    width: 120px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.Pink p {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.crugPink {
+    width: 10px;
+    height: 10px;
+    background-color: #FF00DD;
+    border-radius: 8px;
+}
+
+.None {
+    display: flex;
+    width: 100px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.None p {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.crugNone {
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border: 1px solid #424242;
+    border-radius: 8px;
+}
+
+/*crugi*/
+
+/*dino*/
+
+.con-filtr {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.con-jump {
+    margin-left: 16px;
+}
+
+.jump {
+    width: 80px;
+    height: 27px;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    background-color: transparent;
+    /*Font*/
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    /*func*/
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    transition: background-color 0.8s ease;
+}
+
+.jump:hover {
+    background-color: #161616;
+}
+
+.con-dino {
+    margin-left: 16px;
+    height: 45px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    overflow: visible;
+}
+
+.dino-canvas {
+    border-radius: 5px;
+    overflow: visible; /* ДОБАВЛЕНО: позволяет видеть прыжок */
+    height: 100%;
+}
+
+#dinoCanvas {
+  width: 394px;
+  height: 26px;
+  display: block;
+  background-color: transparent;
+  pointer-events: none;
+  overflow: visible; /* ДОБАВЛЕНО: позволяет видеть прыжок */
+  bottom: 0;
+}
+
+.score {
+    width: 70px;
+    height: 27px;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    /*Font*/
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    /*Func*/
+    margin: 0px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*dino*/
+
+.polosa-port {
+    margin-top: 20px;
+    width: 1210px;
+    height: 2px;
+    background-color: #282828;
+}
+
+/*Apps*/
+
+.con-more-apps {
+    display: flex;
+}
+
+.con-apps {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 28px;
+    display: flex;
+    gap: 81px;
+}
+
+.full-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.big-con-apps {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.poz-btn {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #424242;
+    border-radius: 10px;
+    /*Func*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name-projekt {
+    display: flex;
+}
+
+.naming {
+    display: flex;
+    flex-direction: column;
+}
+
+.nick {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.nick h3 {
+    width: 110px;
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.poz-crug {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    top: 8px;
+    left: 15px;
+}
+
+.bottom-nick p {
+    margin: 0;
+    color: #727272;
+    font-family: "SF Pro Display";
+    font-size: 13px;
+    font-weight: 400;
+    width: 100px;
+}
+
+.btn-app {
+    width: 85px;
+    height: 29px;
+    background-color: transparent;
+    border: 1px solid #424242;
+    border-radius: 8px;
+    /*Font*/
+    color: #8D8D8D;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 400;
+    /*Func*/
+    cursor: pointer;
+    transition: color 0.8s ease, border 0.8s ease;
+}
+
+.btn-app:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-lock {
+    width: 85px;
+    height: 29px;
+    background-color: transparent;
+    border: 1px solid #424242;
+    border-radius: 8px;
+}
+
+/*btns*/
+
+.con-btns {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 25px;
+    gap: 795px;
+}
+
+.left {
+    display: flex;
+    gap: 15px;
+
+}
+
+.otziv {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    /*Font*/
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 400;
+    /*Func*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    transition: border 0.8s ease;
+}
+
+.otziv:hover {
+    border: 1px solid white;
+}
+
+.price {
+    width: 78px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    /*Font*/
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 400;
+    /*Func*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    transition: border 0.8s ease;
+}
+
+.price:hover {
+    border: 1px solid white;
+}
+
+.conect {
+    width: 170px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    /*Font*/
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 400;
+    /*Func*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: border 0.8s ease;
+}
+
+.conect:hover {
+    border: 1px solid white;
+}
+
+/*tire-price*/
+
+.con-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+@media (max-width: 440px) {
+    .con-price {
+        display: none;
+    }
+}
+
+.tire-price {
+    width: 1208px;
+    height: 4px;
+    background-color: #212121;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 440px) {
+    .tire-price {
+        width: 394px;
+    }
+}
+
+.plshk-price {
+    width: 134px;
+    height: 34px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plshk-price p {
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 500;
+}

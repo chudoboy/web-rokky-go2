@@ -1,0 +1,109 @@
+.logo img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 10%;
+}
+
+.menu h1 {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    top: -35px;
+    left: 13%;
+}
+
+.menu2 a {
+    color: #656565;
+    font-family: "SF Pro Display";
+    font-size: 19px;
+    font-weight: 400;
+    margin-right: 20px;
+    text-decoration: none;
+    position: relative;
+    top: -75px;
+    left: 23%;
+    z-index: 1;
+    transition: color 0.8s ease;
+}
+
+.menu2 a:hover {
+    color: white;
+}
+
+.Github {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Github img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -97px;
+    right: 24.5%;
+}
+
+.textgit {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -118px;
+    right: 20.3%;
+}
+
+.textgit a {
+    color: #656565;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "SF Pro Display";
+    font-size: 19px;
+    font-weight: 400;
+    z-index: 1;
+    transition: color 0.8s ease;
+}
+
+.textgit a:hover {
+    color: white;
+}
+
+.btnS {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -145px;
+    right: 10%;
+}
+
+.btn1 {
+    width: 138px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    background-color: #2B9266;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    border: 1px solid #2B9266;
+    color: white;
+    z-index: 5;
+}
+
+.polosa {
+    width: 1440px;
+    height: 2px;
+    background-color: #323232;
+    position: relative;
+    top: -125px;
+}

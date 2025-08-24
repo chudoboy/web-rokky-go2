@@ -1,0 +1,679 @@
+.con-ryadov {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+@media (max-width: 440px) {
+    .con-ryadov {
+        display: none;
+    }
+}
+
+.ryad1 {
+    display: flex;
+    gap: 15px;
+}
+
+.ryad2 {
+    display: flex;
+    gap: 15px;
+}
+
+.plashka {
+    width: 408px;
+    height: 270px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 20px;
+}
+
+.plashka2 {
+    width: 364px;
+    height: 270px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 20px;
+}
+
+.Name-con {
+    margin-top: 26px;
+    margin-left: 23px;
+}
+
+.Name {
+    display: flex;
+    gap: 7px
+}
+
+.Name img {
+    width: 26px;
+    height: 26px;
+}
+
+.Name h2 {
+    margin: 0;
+    color: #75BEFF;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*plashka-2*/
+
+.Name2 {
+    display: flex;
+    gap: 7px
+}
+
+.Name2 img {
+    width: 26px;
+    height: 26px;
+}
+
+.Name2 h2 {
+    margin: 0;
+    color: #FF75F6;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*plashka-2*/
+
+/*plashka-3*/
+
+.Name3 {
+    display: flex;
+    gap: 7px
+}
+
+.Name3 img {
+    width: 26px;
+    height: 26px;
+}
+
+.Name3 h2 {
+    margin: 0;
+    color: #D9B933;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*plashka-3*/
+
+/*plashka-4*/
+
+.Name4 {
+    display: flex;
+    gap: 7px
+}
+
+.Name4 img {
+    width: 26px;
+    height: 26px;
+}
+
+.Name4 h2 {
+    margin: 0;
+    color: #C3FF79;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*plashka-4*/
+
+/*plashka-5*/
+
+.Name5 {
+    display: flex;
+    gap: 7px
+}
+
+.Name5 img {
+    width: 26px;
+    height: 26px;
+}
+
+.Name5 h2 {
+    margin: 0;
+    color: #EB7F04;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*plashka-5*/
+
+/*plashka-6*/
+
+.Name6 {
+    display: flex;
+    gap: 7px
+}
+
+.Name6 img {
+    width: 26px;
+    height: 26px;
+}
+
+.Name6 h2 {
+    margin: 0;
+    color: #00A780;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*plashka-6*/
+
+.Text-con {
+    margin-top: 14px;
+    margin-left: 23px;
+}
+
+.Text-p p {
+    width: 369px;
+    margin: 0;
+    color: #979797;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 152.1%;
+}
+
+.Text-p2 p {
+    width: 320px;
+    margin: 0;
+    color: #979797;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 152.1%;
+}
+
+.heshtag {
+    width: 180px;
+    height: 22px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #75BEFF;
+    /*func*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*poz*/
+    margin-left: 185px;
+    margin-top: -25px;
+}
+
+.heshtag p {
+    color: #75BEFF;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.heshtag2 {
+    width: 180px;
+    height: 22px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #FF75F6;
+    /*func*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*poz*/
+    margin-left: 130px;
+    margin-top: -25px;
+}
+
+.heshtag2 p {
+    color: #FF75F6;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.heshtag3 {
+    width: 180px;
+    height: 22px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #D9B933;
+    /*func*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*poz*/
+    margin-left: 170px;
+    margin-top: -25px;
+}
+
+.heshtag3 p {
+    color: #D9B933;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.polosa {
+    width: 369px;
+    height: 1px;
+    background-color: #303030;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin-top: 22px;
+}
+
+.polosa2 {
+    width: 320px;
+    height: 1px;
+    background-color: #303030;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin-top: 22px;
+}
+
+.polosa3 {
+    width: 144px;
+    height: 1px;
+    background-color: #303030;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin-top: 22px;
+}
+
+.social {
+    margin-top: 23px;
+    margin-left: 23px;
+    display: flex;
+}
+
+.social p {
+    margin: 0;
+    color: #979797;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.perehod {
+    display: flex;
+    gap: 38px;
+    margin-left: 10px;
+}
+
+/*Github icon*/
+
+.Github {
+    cursor: pointer;
+    position: relative;
+}
+
+.Github img {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.Github img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.Github img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.Github:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.Github:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+/*Telegram icon*/
+
+.Telegram {
+    cursor: pointer;
+    position: relative;
+}
+
+.Telegram img {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.Telegram img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.Telegram img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.Telegram:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.Telegram:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+.con-btn-1 {
+    margin-left: 80px;
+}
+
+.btn-1 {
+    cursor: pointer;
+    width: 126px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: #75BEFF;
+    /*font*/
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    /*func*/
+    transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.btn-1:hover {
+    color: #75BEFF;
+    border: 2px solid #75BEFF;
+    background-color: transparent;
+}
+
+.btn-2 {
+    cursor: pointer;
+    width: 126px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF75F6;
+    /*font*/
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    /*func*/
+    transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.btn-2:hover {
+    color: #FF75F6;
+    border: 2px solid #FF75F6;
+    background-color: transparent;
+}
+
+.btn-3 {
+    cursor: pointer;
+    width: 126px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D9B933;
+    /*font*/
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    /*func*/
+    transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.btn-3:hover {
+    color: #D9B933;
+    border: 2px solid #D9B933;
+    background-color: transparent;
+}
+
+/*ryad2-btn*/
+
+.con-btn-mini {
+    margin-top: 21px;
+    margin-left: 23px;
+}
+
+.btn-4 {
+    cursor: pointer;
+    width: 126px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: #C3FF79;
+    /*font*/
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    /*func*/
+    transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.btn-4:hover {
+    color: #C3FF79;
+    border: 2px solid #C3FF79;
+    background-color: transparent;
+}
+
+.btn-5 {
+    cursor: pointer;
+    width: 126px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EB7F04;
+    /*font*/
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    /*func*/
+    transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.btn-5:hover {
+    color: #EB7F04;
+    border: 2px solid #EB7F04;
+    background-color: transparent;
+}
+
+.btn-6 {
+    cursor: pointer;
+    width: 126px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00A780;
+    /*font*/
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    /*func*/
+    transition: color 0.8s ease, background-color 0.8s ease, border 0.8s ease;
+}
+
+.btn-6:hover {
+    color: #00A780;
+    border: 2px solid #00A780;
+    background-color: transparent;
+}
+
+/*ryad2-btn*/
+
+.konsyl {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 23px;
+    gap: 80px;
+}
+
+.konsyl2 {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 23px;
+    gap: 130px;
+}
+
+.con-free p {
+    width: 110px;
+    margin: 0;
+    color: #979797;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+}
+
+/*ryad2*/
+
+.back-img {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 248px;
+  width: 160px; /* Добавь временно ширину и высоту */
+  height: 160px; /* чтобы увидеть картинку */
+  overflow: hidden;
+}
+
+.back-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.back-img2 {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 214px;
+  width: 150px; /* Добавь временно ширину и высоту */
+  height: 150px; /* чтобы увидеть картинку */
+  overflow: hidden;
+}
+
+.back-img2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.img-default {
+  opacity: 1;
+  z-index: 1;
+}
+
+.img-hover {
+  opacity: 0;
+  z-index: 2;
+}
+
+
+.mini-plshk {
+    width: 408px;
+    height: 210px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.mini-plshk2 {
+    width: 364px;
+    height: 210px;
+    background-color: transparent;
+    border: 1px solid #303030;
+    border-radius: 20px;
+}
+
+/*script-появления*/
+
+/* Изначально скрываем все плашки */
+.plashka, .plashka2, .mini-plshk, .mini-plshk2, .con-saits {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Класс для плавного появления */
+.animate-plashka, .animate-saits {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.con-portfolio,
+.con-price,
+.con-plaski-price {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/*tire-saits*/
+
+.con-saits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.tire-saits {
+    width: 1208px;
+    height: 4px;
+    background-color: #212121;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 440px) {
+    .tire-saits {
+        width: 394px;
+    }
+}
+
+.plshk-saits {
+    width: 134px;
+    height: 34px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plshk-saits p {
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,164 @@
+.menu {
+    width: 1440px;
+    height: 80px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 1;
+}
+
+.logo h1 {
+    margin: 0;
+    font-family: "Onest";
+    font-weight: 600;
+    font-size: 32px;
+    position: relative;
+    top: 18px;
+    left: 3%;
+}
+
+/*---------LOGO------------*/
+
+.logo img {
+    position: relative;
+    top: -14px;
+    left: 4.65%;
+}
+
+@keyframes draw {
+    from {
+        stroke-dashoffset: 500;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+#svg-container {
+    position: relative;
+    top: -14px;
+    left: 4.65%;
+}
+
+#svg-container path {
+    stroke: black;
+    stroke-width: 1.5;
+    fill: none;
+}
+
+/*--------LOGO-------------*/
+
+.logo h2 {
+    margin: 0;
+    font-family: "Onest";
+    font-weight: 600;
+    font-size: 32px;
+    position: relative;
+    top: -62px;
+    left: 7%;
+}
+
+/*menu center*/
+
+.menuC a {
+    text-decoration: none;
+    font-family: "Onest";
+    font-size: 16px;
+    font-weight: 500;
+    color: #737373;
+    margin-right: 15px;
+    position: relative;
+    left: 10.8%;
+    top: -89.8px;
+    cursor: pointer;
+    transition: color 0.8s ease;
+    z-index: 1;
+}
+
+.menuC a:hover {
+    color: black;
+}
+
+/*menu icon*/
+
+.heart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heart img {
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+    top: -118px;
+    right: 2%;
+}
+
+/*animaited icon*/
+
+.menui {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+.menui img {
+    cursor: pointer;
+    margin-right: 20px;
+    position: absolute;
+    top: -118px;
+    right: 5%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.menui img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.menui img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.menui:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.menui:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}
+
+/*shop*/
+
+.shop {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+.shop img {
+    cursor: pointer;
+    margin-right: 20px;
+    position: absolute;
+    top: -118px;
+    right: 1.5%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.shop img.first {
+    opacity: 1; /* Первое изображение видно по умолчанию */
+}
+
+.shop img.second {
+    opacity: 0; /* Второе изображение скрыто */
+}
+
+.shop:hover img.first {
+    opacity: 0; /* Скрываем первое изображение */
+}
+
+.shop:hover img.second {
+    opacity: 1; /* Показываем второе изображение */
+}

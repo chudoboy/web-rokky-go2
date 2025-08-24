@@ -1,0 +1,463 @@
+.Information {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+/*Column1*/
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.Friday {
+    width: 346px;
+    height: 384px;
+    border-radius: 20px;
+    border: 2px solid #3a3a3a;
+    background-color: #101010;
+}
+
+.TextFriday {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    position: relative;
+    top: 23px;
+    left: 21px;
+}
+
+.TextFriday h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.TextFriday h2 {
+    margin: 0;
+    color: #6c6c6c;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.LogoImg {
+    position: relative;
+    top: 80px;
+    left: 103px;
+}
+
+.WhyFriday {
+    width: 346px;
+    height: 170px;
+    border-radius: 20px;
+    border: 2px solid #3a3a3a;
+    background-color: #101010;
+}
+
+.WhyFri {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    position: relative;
+    top: 23px;
+    left: 21px;
+}
+
+.WhyFridaytext h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.TGtext2 {
+    margin: 0;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    top: -112px;
+    left: 12px;
+}
+
+.TGtext2 p {
+    color: #868686;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.FAQ {
+    width: 346px;
+    height: 291px;
+    border-radius: 20px;
+    border: 2px solid #3a3a3a;
+    background-color: #101010;
+}
+
+.FAQtext {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    position: relative;
+    top: 23px;
+    left: 21px;
+}
+
+.FAQtext h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.FAQtext h2 {
+    margin: 0;
+    color: #6c6c6c;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*Column2*/
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.Why {
+    width: 346px;
+    height: 291px;
+    border-radius: 20px;
+    border: 2px solid #3a3a3a;
+    background-color: #101010;
+}
+
+.TextWhy {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    position: relative;
+    top: 23px;
+    left: 21px;
+}
+
+.TextWhy h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.TextWhy h2 {
+    margin: 0;
+    color: #6c6c6c;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*Key and Mail*/
+
+/*effect tg*/
+
+.letter {
+    display: inline-block;
+    opacity: 1;
+    transform: none;
+    transition: none;
+    will-change: transform, opacity;
+  
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}  
+
+/*effect tg*/
+
+.KeyMail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 35px;
+    left: 21px;
+}
+
+.Key {
+    position: relative;
+    width: 213px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #212121;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.Key::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    padding: 2px; /* толщина "границы" */
+    background:
+      repeating-linear-gradient(to right, #3a3a3a 0 10px, transparent 10px 15px),
+      repeating-linear-gradient(to bottom, #3a3a3a 0 10px, transparent 10px 15px),
+      repeating-linear-gradient(to left, #3a3a3a 0 10px, transparent 10px 15px),
+      repeating-linear-gradient(to top, #3a3a3a 0 10px, transparent 10px 15px);
+    background-repeat: no-repeat;
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+    background-position: top, right, bottom, left;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.Key p {
+    text-align: center;
+    font-family: "Cascadia Code";
+    font-size: 13px;
+    font-weight: 400;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.Mail {
+    position: relative;
+    width: 175px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #212121;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 0;
+    overflow: hidden;
+}
+  
+.Mail::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    padding: 2px; /* толщина "границы" */
+    background:
+      repeating-linear-gradient(to right, #3a3a3a 0 10px, transparent 10px 15px),
+      repeating-linear-gradient(to bottom, #3a3a3a 0 10px, transparent 10px 15px),
+      repeating-linear-gradient(to left, #3a3a3a 0 10px, transparent 10px 15px),
+      repeating-linear-gradient(to top, #3a3a3a 0 10px, transparent 10px 15px);
+    background-repeat: no-repeat;
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+    background-position: top, right, bottom, left;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.Mail p {
+    text-align: center;
+    font-family: "Cascadia Code";
+    font-size: 13px;
+    font-weight: 400;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Why2*/
+
+.Why2 {
+    width: 346px;
+    height: 170px;
+    border-radius: 20px;
+    border: 2px solid #3a3a3a;
+    background-color: #101010;
+}
+
+.TextWhy2 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    position: relative;
+    top: 23px;
+    left: 21px;
+}
+
+.TextWhy2 h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.TGtext {
+    margin: 0;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    top: -112px;
+    left: 12px;
+}
+
+.TGtext p {
+    color: #868686;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.TalkFriday {
+    width: 346px;
+    height: 384px;
+    border-radius: 20px;
+    border: 2px solid #3a3a3a;
+    background-color: #101010;
+}
+
+.Talktext {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    position: relative;
+    top: 23px;
+    left: 21px;
+}
+
+.TalkFriday h1 {
+    margin: 0;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.TalkFriday h2 {
+    margin: 0;
+    color: #6c6c6c;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Mailimg {
+    position: relative;
+    top: 25px;
+    left: 55px;
+}
+
+/*Quest*/
+
+.Quest4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 45px;
+    left: 21px;
+}
+
+.Quest {
+    position: relative;
+    width: 304px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #212121;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Quest::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    padding: 2px;
+    background:
+      repeating-linear-gradient(to right, #3a3a3a 0 10px, transparent 10px 15px),
+      repeating-linear-gradient(to bottom, #3a3a3a 0 10px, transparent 10px 15px),
+      repeating-linear-gradient(to left, #3a3a3a 0 10px, transparent 10px 15px),
+      repeating-linear-gradient(to top, #3a3a3a 0 10px, transparent 10px 15px);
+    background-repeat: no-repeat;
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+    background-position: top, right, bottom, left;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.Quest p {
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    font-weight: 400;
+    background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    left: 18px;
+}
+
+.answer {
+    position: relative;
+    top: 2px;
+    left: 35px;
+}
+
+.info {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.answer2 {
+    position: relative;
+    top: 2px;
+    left: 52px;
+}
+
+.answer3 {
+    position: relative;
+    top: 2px;
+    left: 71px;
+}
+  
+.tooltip {
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #3a3a3a;
+    background-color: black;
+    /*Font*/
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    /*Font*/
+    padding: 8px 12px;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+  
+.answer:hover .tooltip,
+.answer2:hover .tooltip,
+.answer3:hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+}  

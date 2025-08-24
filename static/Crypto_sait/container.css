@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFProDisplay-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('fonts/CascadiaCodePL-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Фон сайта*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1B1B;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    height: 1500px;
+    margin: 0 auto;
+    background-color: #1B1B1B;
+    overflow: hidden;
+}
