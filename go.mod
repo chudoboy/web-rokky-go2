@@ -1,4 +1,4 @@
-module github.com/chudoboy/web-rokky-go22
+module github.com/chudoboy/web-rokky-go2
 
 go 1.22.0
 
